@@ -145,3 +145,40 @@ footer .ar{color:var(--gold-lt);font-size:1.25rem;margin-bottom:10px}
   .hero h1{font-size:2rem}
   .quote{padding:32px 22px}
 }
+
+/* ---------- TOPBAR ---------- */
+.topbar{background:var(--ink2);color:#dce7df;font-size:.8rem;border-bottom:1px solid rgba(201,164,76,.2)}
+.topbar .container{display:flex;align-items:center;gap:16px;flex-wrap:wrap;justify-content:center;padding-top:8px;padding-bottom:8px}
+.topbar .ar{font-family:'Noto Naskh Arabic','Amiri',serif;color:var(--gold-lt);font-size:.98rem;direction:rtl}
+.topbar .pill{color:#cfe0d6;white-space:nowrap}
+.topbar .tb-link{color:var(--gold-lt);font-weight:700;white-space:nowrap}
+.topbar .tb-link:hover{color:var(--gold)}
+@media(max-width:760px){.topbar .container{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;gap:14px}.topbar .ar{font-size:.9rem}}
+
+/* ---------- LOGO ---------- */
+.brand .logo-mark{width:36px;height:36px;object-fit:contain}
+.logo-hero{width:148px;height:auto;margin:0 auto 8px;display:block;filter:drop-shadow(0 8px 22px rgba(0,0,0,.28))}
+@media(max-width:560px){.logo-hero{width:118px}}
+
+/* ---------- TICKET BAND ---------- */
+.ticketband{background:var(--gold);padding:0}
+.ticketband .container{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;padding-top:28px;padding-bottom:28px}
+.ticketband h3{color:var(--ink);font-size:1.25rem;margin-bottom:3px}
+.ticketband p{color:#5e4d1c;font-size:.96rem}
+.ticketband .btn-gold{background:var(--ink);color:var(--gold-lt)}
+.ticketband .btn-gold:hover{background:var(--ink2);color:var(--white);transform:translateY(-2px)}
+
+/* ---------- LIVE PRAYER TIMES ---------- */
+.ptimes-sec{padding-top:54px;padding-bottom:0}
+.ptimes{background:linear-gradient(160deg,var(--ink),var(--green2));border-radius:var(--r);padding:36px;color:#fff;box-shadow:var(--shadow);border:1px solid rgba(201,164,76,.3)}
+.ptimes-head{text-align:center;margin-bottom:22px}
+.ptimes-head h2{color:#fff;font-size:1.5rem}
+.ptimes-head p{color:var(--gold-lt);font-size:.9rem;margin-top:6px}
+.ptimes-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.ptime{background:rgba(255,255,255,.06);border:1px solid rgba(201,164,76,.18);border-radius:12px;padding:16px 8px;text-align:center}
+.ptime span{display:block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-lt);margin-bottom:6px}
+.ptime b{font-size:1.18rem;color:#fff;font-family:var(--serif)}
+.ptime.next{background:var(--gold);border-color:var(--gold)}
+.ptime.next span,.ptime.next b{color:var(--ink)}
+.ptimes-note{text-align:center;color:#cfe0d6;font-size:.8rem;margin-top:18px}
+@media(max-width:700px){.ptimes-grid{grid-template-columns:repeat(3,1fr)}.ptimes{padding:26px 20px}}
