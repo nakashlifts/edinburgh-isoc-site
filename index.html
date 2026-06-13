@@ -1,124 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Edinburgh University Islamic Society (ISoc)</title>
-<meta name="description" content="The University of Edinburgh Islamic Society — a home for Muslim students. Events, prayer spaces, community and support.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ISocEd — University of Edinburgh Islamic Society</title>
+  <meta name="description" content="The University of Edinburgh Islamic Society (ISocEd) — a home away from home for Muslim students. Community, worship, support, and knowledge since 2001." />
+  <link rel="icon" href="assets/logo-mark.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-<div class="topbar"><div class="container"><span class="ar">السَّلامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ</span><span class="pill">🏆 FOSIS Best Collaboration Event 2025</span><span class="pill">🕌 Since 2001</span><span class="pill">🗓️ Tuesdays 5pm · Chaplaincy, Potterrow</span><a class="tb-link" href="https://linktr.ee/isocedinburgh" target="_blank" rel="noopener">All links &amp; tickets ↗</a></div></div>
-<nav class="nav">
-  <div class="container">
-    <a class="brand" href="index.html"><img class="logo-mark" src="assets/logo-mark.png" alt="ISocEd"><span class="txt"><b>ISocEd</b><span>Edinburgh Islamic Society</span></span></a>
-    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
-    <ul class="navlinks">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="prayer.html">Prayer &amp; Spaces</a></li>
-      <li><a href="planner.html">Planner</a></li>
-      <li><a href="contact.html" class="cta">Contact</a></li>
-    </ul>
-  </div>
-</nav>
 
-<header class="hero">
-  <div class="container">
-    <img class="logo-hero" src="assets/logo-full.png" alt="The University of Edinburgh Islamic Society">
-    <p class="ar">بِسْمِ اللَّهِ</p>
-    <h1>University of Edinburgh<br>Islamic Society</h1>
-    <div class="divider-rule"></div>
-    <p class="lead">A home away from home for Muslim students — faith, friendship, and belonging in the heart of Edinburgh.</p>
-    <div class="hero-actions">
-      <a href="events.html" class="btn btn-gold">Upcoming Events</a>
-      <a href="about.html" class="btn btn-ghost">Discover ISoc</a>
-      <a href="https://linktr.ee/isocedinburgh" class="btn btn-green" target="_blank" rel="noopener">Tickets &amp; Sign-ups</a>
-    </div>
-    <p class="meta">🕌 Serving Muslim students since 2001 · 🏆 FOSIS Best Collaboration Event 2025</p>
-  </div>
-</header>
-
-<section>
-  <div class="container">
-    <span class="eyebrow" style="display:block;text-align:center">Why ISoc</span>
-    <h2 class="section-title">Everything you need, in one community</h2>
-    <p class="section-sub">Whether you're a fresher finding your feet or a final-year student, ISoc is here for every part of your journey.</p>
-    <div class="grid g3">
-      <div class="card reveal"><div class="ico">🤝</div><h3>Community</h3><p>Weekly halaqahs, brothers' and sisters' socials, and a network of Muslim students who quickly become family.</p></div>
-      <div class="card reveal"><div class="ico">🕌</div><h3>Worship</h3><p>Jumu'ah, prayer spaces across campus, and group iftars throughout Ramadan — keep your deen strong while you study.</p></div>
-      <div class="card reveal"><div class="ico">🎓</div><h3>Support</h3><p>Mentorship, academic advice, and a friendly face whenever uni life gets tough. You're never on your own here.</p></div>
-      <div class="card reveal"><div class="ico">🍛</div><h3>Halal Life</h3><p>Halal food guides, charity drives, and trips — living a wholesome student life the Edinburgh way.</p></div>
-      <div class="card reveal"><div class="ico">📖</div><h3>Knowledge</h3><p>Talks, Qur'an circles, and Islam Awareness Week — growing in both sacred and worldly knowledge.</p></div>
-      <div class="card reveal"><div class="ico">💚</div><h3>Charity</h3><p>Fundraisers and volunteering that turn our community's energy into real good for those in need.</p></div>
+  <!-- ===== Salaam top bar ===== -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <span class="salaam">السلام عليكم ورحمة الله وبركاته</span>
+      <span class="tb-item">🏆 FOSIS Best Collaboration Event 2025</span>
+      <span class="tb-item">🕌 Since 2001</span>
+      <span class="tb-item">🗓️ Tuesdays 5pm · Chaplaincy, Potterrow</span>
+      <span class="tb-spacer"></span>
+      <a class="tb-link" href="https://linktr.ee/isocedinburgh" target="_blank" rel="noopener">All links &amp; tickets ↗</a>
     </div>
   </div>
-</section>
 
-<section class="alt">
-  <div class="container">
-    <div class="quote reveal">
-      <p class="ar">وَقُل رَّبِّ زِدْنِي عِلْمًا</p>
-      <p>“My Lord, increase me in knowledge.”</p>
-      <cite>— Qur'an 20:114</cite>
+  <!-- ===== Sticky nav ===== -->
+  <header class="nav">
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="ISocEd home">
+        <img class="brand-mark" src="assets/logo-mark.png" alt="ISocEd crescent logo" width="36" height="36"
+          onerror="this.outerHTML='&lt;svg class=&quot;brand-mark&quot; viewBox=&quot;0 0 100 100&quot; width=&quot;36&quot; height=&quot;36&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M68 12a40 40 0 1 0 0 76 32 32 0 1 1 0-76z&quot; fill=&quot;%23c9a44c&quot;/&gt;&lt;/svg&gt;'" />
+        <span class="brand-text"><b>ISocEd</b><span>Edinburgh Islamic Society</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="prayer.html">Prayer &amp; Spaces</a>
+        <a href="planner.html">Planner</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+  <div class="nav-overlay" aria-hidden="true"></div>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-inner">
+        <img class="logo-full" src="assets/logo-full.png" alt="ISocEd — The University of Edinburgh Islamic Society" width="148"
+          onerror="this.outerHTML='&lt;svg class=&quot;logo-full&quot; viewBox=&quot;0 0 100 100&quot; width=&quot;148&quot; height=&quot;148&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M68 12a40 40 0 1 0 0 76 32 32 0 1 1 0-76z&quot; fill=&quot;%23c9a44c&quot;/&gt;&lt;/svg&gt;'" />
+        <p class="bismillah">بِسْمِ اللَّهِ</p>
+        <h1>University of Edinburgh<br />Islamic Society</h1>
+        <div class="gold-rule"><span class="diamond"></span></div>
+        <p class="hero-lead">A home away from home for Muslim students — a warm, welcoming family for worship, friendship, knowledge and growth in the heart of Edinburgh.</p>
+        <div class="btn-row center">
+          <a class="btn btn-gold" href="events.html">Upcoming Events</a>
+          <a class="btn btn-ghost" href="about.html">Discover ISoc</a>
+          <a class="btn btn-green" href="https://linktr.ee/isocedinburgh" target="_blank" rel="noopener">Tickets &amp; Sign-ups</a>
+        </div>
+        <p class="hero-meta">🕌 Serving Muslim students since 2001 · 🏆 FOSIS Best Collaboration Event 2025</p>
+      </div>
+    </section>
+
+    <!-- ===== Why ISoc ===== -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Why ISoc</span>
+          <h2>More than a society — a family</h2>
+          <div class="gold-rule"><span class="diamond"></span></div>
+          <p>Whatever brought you to Edinburgh, you belong here. Here is what being part of ISocEd means.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card reveal">
+            <span class="icon-chip" aria-hidden="true">🤝</span>
+            <h3>Community</h3>
+            <p>Meet brothers and sisters from every background and course. Socials, dinners and study sessions where lifelong friendships begin.</p>
+          </article>
+          <article class="card reveal">
+            <span class="icon-chip" aria-hidden="true">🕌</span>
+            <h3>Worship</h3>
+            <p>Pray together on campus and at Edinburgh Central Mosque, join our weekly halaqah, and keep your salah strong through busy term-time.</p>
+          </article>
+          <article class="card reveal">
+            <span class="icon-chip" aria-hidden="true">🪴</span>
+            <h3>Support</h3>
+            <p>Far from home? Our committee and members are here for a chat, a brew, or guidance through university life — you are never on your own.</p>
+          </article>
+          <article class="card reveal">
+            <span class="icon-chip" aria-hidden="true">🍽️</span>
+            <h3>Halal Life</h3>
+            <p>From the best halal eats around campus to prayer spaces and Jumu’ah, we help you live your deen comfortably in Edinburgh.</p>
+          </article>
+          <article class="card reveal">
+            <span class="icon-chip" aria-hidden="true">📖</span>
+            <h3>Knowledge</h3>
+            <p>Halaqahs, guest speakers and Islam Awareness Week nourish the mind and heart — seeking knowledge as an act of worship.</p>
+          </article>
+          <article class="card reveal">
+            <span class="icon-chip" aria-hidden="true">🥲</span>
+            <h3>Charity</h3>
+            <p>Fundraisers, volunteering and community service let us give back together, embodying the generosity at the heart of our faith.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Qur'an quote band ===== -->
+    <section class="section section--panel">
+      <div class="container">
+        <div class="quote-band reveal">
+          <p class="ar">وَقُل رَّبِّ زِدْنِي عِلْمًا</p>
+          <p class="tr">“My Lord, increase me in knowledge.”</p>
+          <p class="ref">Qur’an 20:114</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Planner feature ===== -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="feature">
+          <div class="reveal">
+            <span class="eyebrow" style="color:var(--gold);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:.76rem;">Our flagship project</span>
+            <h2>The Muslim Student Planner</h2>
+            <div class="gold-rule start"><span class="diamond"></span></div>
+            <p>A beautiful, Islamically-grounded planner designed to keep your deen and your degree in harmony all year round.</p>
+            <ul class="ticklist">
+              <li><span class="tick">✓</span><span>Daily prayer &amp; Qur’an trackers to build consistent habits</span></li>
+              <li><span class="tick">✓</span><span>A full Ramadan planner &amp; Islamic (Hijri) calendar</span></li>
+              <li><span class="tick">✓</span><span>Du’as, reflections and space for weekly goal-setting</span></li>
+            </ul>
+            <div class="btn-row">
+              <a class="btn btn-gold" href="planner.html">See the Planner</a>
+            </div>
+          </div>
+          <div class="reveal">
+            <div class="book-wrap">
+              <div class="book">
+                <div class="crescent" aria-hidden="true">☾</div>
+                <p class="b-sub">Edinburgh Islamic Society</p>
+                <p class="b-title">Muslim Student Planner</p>
+                <p class="b-year">2026 – 2027</p>
+                <p class="b-ar">بِسْمِ اللَّهِ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Final CTA ===== -->
+    <section class="section section--ink">
+      <div class="container">
+        <div class="section-head reveal" style="margin-bottom:24px;">
+          <span class="eyebrow">Join us this year</span>
+          <h2 style="color:var(--white);">Your place is already waiting</h2>
+          <div class="gold-rule"><span class="diamond"></span></div>
+          <p style="color:rgba(248,244,233,.85);">Drop in to our weekly halaqah every <strong>Tuesday at 5pm</strong> at the Chaplaincy, Potterrow — no experience needed, just bring yourself. Whether it’s your first week or final year, there’s a warm welcome and a cup of tea waiting.</p>
+        </div>
+        <div class="btn-row center reveal">
+          <a class="btn btn-gold" href="contact.html">Get in touch</a>
+          <a class="btn btn-green" href="https://linktr.ee/isocedinburgh" target="_blank" rel="noopener">Tickets &amp; Forms</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <p class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+          <p>The University of Edinburgh Islamic Society — a home away from home for Muslim students since 2001. Affiliated with EUSA &amp; FOSIS Scotland.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="prayer.html">Prayer &amp; Spaces</a></li>
+            <li><a href="planner.html">Planner</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://instagram.com/isocedinburgh" target="_blank" rel="noopener">Instagram @isocedinburgh</a></li>
+            <li><a href="https://linktr.ee/isocedinburgh" target="_blank" rel="noopener">Linktree — tickets &amp; forms</a></li>
+            <li><a href="mailto:isoc@eusa.ed.ac.uk">isoc@eusa.ed.ac.uk</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="brand-mini">
+          <img src="assets/logo-mark.png" alt="" aria-hidden="true" width="26" height="26" onerror="this.style.display='none'" />
+          ISocEd · Edinburgh Islamic Society
+        </span>
+        <span>&copy; <span id="year">2026</span> University of Edinburgh Islamic Society. All rights reserved.</span>
+      </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<section>
-  <div class="container">
-    <div class="feature">
-      <div class="reveal">
-        <span class="eyebrow">New for 2026–27</span>
-        <h2 style="font-size:2rem;margin-bottom:14px">The Edinburgh ISoc Muslim Student Planner</h2>
-        <p style="color:var(--muted);margin-bottom:10px">A beautiful, Islamically-grounded planner to organise your deen, your studies, and your life — designed by ISoc, for Edinburgh's Muslim students.</p>
-        <ul class="ticklist">
-          <li>Prayer &amp; Qur'an trackers for every week</li>
-          <li>Full Ramadan planner &amp; Islamic calendar</li>
-          <li>Du'as, reminders &amp; reflection pages</li>
-        </ul>
-        <a href="planner.html" class="btn btn-green">See the Planner</a>
-      </div>
-      <div class="pcover reveal">
-        <svg class="crescent" viewBox="0 0 100 100"><path d="M66 12a40 40 0 1 0 0 76 31 31 0 1 1 0-76z" fill="currentColor"/></svg>
-        <small>University of Edinburgh Islamic Society</small>
-        <h3>Muslim Student Planner</h3>
-        <p class="yr">2026 – 2027</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="alt">
-  <div class="container" style="text-align:center">
-    <h2 class="section-title">Join us this year</h2>
-    <p class="section-sub">Come say salaam at the Freshers' Fair, follow us on Instagram, or just turn up to your first halaqah — every <strong>Tuesday at 5pm in the Chaplaincy, Potterrow</strong>. We'd love to meet you.</p>
-    <div class="hero-actions" style="margin-top:8px"><a href="contact.html" class="btn btn-gold">Get in touch</a><a href="https://linktr.ee/isocedinburgh" class="btn btn-green" target="_blank" rel="noopener">Tickets &amp; Forms</a></div>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    <div class="fgrid">
-      <div>
-        <p class="ar">بِسْمِ اللَّهِ</p>
-        <p style="color:#cfe0d6;font-size:.93rem;max-width:320px">The University of Edinburgh Islamic Society — serving Muslim students and building community since our founding.</p>
-      </div>
-      <div>
-        <h4>Explore</h4>
-        <a href="about.html">About</a><a href="events.html">Events</a><a href="prayer.html">Prayer &amp; Spaces</a><a href="planner.html">Planner</a>
-      </div>
-      <div>
-        <h4>Connect</h4>
-        <a href="https://instagram.com/isocedinburgh">Instagram @isocedinburgh</a><a href="https://linktr.ee/isocedinburgh" target="_blank" rel="noopener">Linktree — links &amp; tickets</a><a href="mailto:isoc@eusa.ed.ac.uk">isoc@eusa.ed.ac.uk</a><a href="contact.html">Contact us</a>
-      </div>
-    </div>
-    <div class="fbottom">© <span id="yr">2026</span> University of Edinburgh Islamic Society · Made with care for the Ummah</div>
-  </div>
-</footer>
-<script src="assets/script.js"></script>
+  <script src="assets/script.js"></script>
 </body>
 </html>
